@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="#A20015"
+     >
+     
+    
+        <TextView
+        android:id="@+id/intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Silahkan kerjakan soal dibawah ini"
+        android:textColor="#fff"
+         />
+        
+            <TextView
+        android:id="@+id/bdtr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sebuah peregi mempunyai sisi 4cm. Tentukan luas yang dimilikinya"
+        android:layout_below="@+id/intro"
+        android:textColor="#fff"
+        />
+                <EditText 
+        android:id="@+id/etbdtr"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jawaban anda"
+        android:layout_below="@+id/bdtr"
+        />
+                    <Button
+        android:id="@+id/btnbdtr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_below="@+id/etbdtr"
+        />
+    
+
+</RelativeLayout>
